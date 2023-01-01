@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+  align-items: center;
+}
+
+input {
+  border: none;
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  padding: 5px 10px;
+  outline: none;
+}
+#addButton {
+  text-decoration: none;
+  background-color: blueviolet;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  min-width: 300px;
+  height: 40px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 8px black;
+  border-radius: 5px;
+}
+.todoContainer {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+#doneButton {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 0 0 8px black;
+}
+#deleteButton {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 0 0 8px black;
+}
+
+.done {
+  color: red;
+}
